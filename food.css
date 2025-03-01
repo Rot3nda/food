@@ -591,9 +591,6 @@ footer{
 }
 
 
-
-
-
 @media  screen and (max-width:490px) {
 
     .upper img{
@@ -606,9 +603,9 @@ footer{
     }
 
     .top img{  
-        margin-right:10px;
-        width: 33px;
-        height: 33px;
+        margin-right:14px;
+        width: 37px;
+        height: 37px;
     }
 
     .stores{
