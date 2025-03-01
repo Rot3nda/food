@@ -686,7 +686,8 @@ footer{
         align-items: center;
     }
 
-    .win2 img{
-        height: 27vh;
+    .win2{
+        display: none;
     }
+
 }
