@@ -338,47 +338,6 @@ body{
     top: 190px;
     right: 50px;
 }
-.c{
-    position: relative;
-    top: 170px;
-        margin: 5px;
-        background-color: rgba(17, 115, 115, 0.2);
-        border-radius: 7px;
-        padding: 10px;
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: space-evenly;
-        text-align: center;
-        align-items: center;     
-}
-
-.sss{
-    font-size: 200%;
-    color: white;
-    width: 350px;
-    height: 100px;
-    background-color: rgb(9, 156, 156);
-    margin: 10px;
-    border-radius: 1px;
-    border-radius: 7px;
-    
-}
-
-.piza{
-
-    display: flex;
-    justify-content: right;
-    flex-wrap: wrap;
-    position: relative;
-    right: 150px;
-    top: 160px;
-
-    img{
-        width: 500px;
-        height: 300px;
-        border-radius: 15px;
-     }
-}
 
 
 .burg{
@@ -388,9 +347,6 @@ body{
     display: flex;
     flex-direction: column;
 }
-
-
-
 
 #starb{
     max-width: 100%;
@@ -411,8 +367,6 @@ body{
     box-shadow: 2px 2px 2px 2px rgb(8, 26, 58);
     padding: 1%;
 } 
-
-
 
 .st {
         display: flex;
@@ -623,13 +577,14 @@ footer{
         height: fit-content;
         padding-top: 5%;
         padding-bottom: 5%;
+        margin-bottom: 5%;
      }
 
      #stores{
         height: 40vh;
         height: fit-content;
-        margin-right: 1%;
-        margin-bottom: 5%;
+        margin-right: 2%;
+        margin-bottom: 2%;
      }
 
     .store{
