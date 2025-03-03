@@ -559,9 +559,16 @@ footer{
 
 @media  screen and (max-width:490px) {
 
-    .upper img{
+    
+
+    #nav1 img{
         width: 23px;
         height: 23px;
+    }
+
+    #nav2 img{
+        width: 12px;
+        height: 14px;
     }
 
     .upper p{
