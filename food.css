@@ -620,10 +620,16 @@ footer{
 
     .stores{
         height: 31vh;
+        height: fit-content;
+        padding-top: 5%;
+        padding-bottom: 5%;
      }
 
      #stores{
         height: 40vh;
+        height: fit-content;
+        margin-right: 1%;
+        margin-bottom: 5%;
      }
 
     .store{
