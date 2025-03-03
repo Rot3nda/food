@@ -307,7 +307,7 @@ body{
     font-size: 120%;
     color: white;
     width: 15rem;
-    height: 10vh;
+    height: 8vh;
     background-color: rgb(9, 156, 156);
     margin: 1%;
     border-radius: 1px;
@@ -325,7 +325,7 @@ body{
     display: flex;
     flex-direction: column;
     margin-bottom: 5%;
-    background-image: linear-gradient(to right,white,rgb(145, 190, 202));
+    background-image: linear-gradient(to right,white,rgb(178, 207, 215));
 }
 
 .piz{
@@ -338,7 +338,7 @@ body{
 
 #piz img{
     width: 20rem;
-    height: 27vh;     
+    height: 25vh;     
     margin: auto;
     margin-bottom: 2%;
 }
@@ -545,13 +545,11 @@ footer{
     }
 
     #tooth img,#piz img{
-        width: 18rem;
-        height: 20vh;
+        width: 15rem;
+        height: 17vh;
     }
 
-    #tooth{
-        background-color: rgba(0, 183, 255, 0.187);
-    }
+   
 
     .s{
         height: 8vh;
