@@ -32,8 +32,8 @@ body{
     position: absolute;
     top: 1.2rem;
     right: 1.9rem;
-    width: 33px;
-    height: 33px;
+    width: 30px;
+    height: 30px;
     position: fixed;
 }
 
@@ -107,6 +107,8 @@ body{
   width: 40px;
   height: 40px;
 }
+
+
 
 .top{
     display: flex;
@@ -610,7 +612,7 @@ footer{
     }
 
     .stores{
-        height: 30vh;
+        height: 31vh;
      }
 
      #stores{
