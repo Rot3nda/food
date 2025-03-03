@@ -22,7 +22,7 @@ body{
 
 .upper p {
         text-align: center;
-        font-size: 3.5rem;
+        font-size: 2.5rem;
         color: rgb(54, 54, 54);
         width: 70%;
         margin: 0%;
@@ -96,11 +96,26 @@ body{
     color: black;
 }
 
+.in{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.iinn{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .iinn img{
-      width: 35px;
-      height: 35px;
+      width: 30px;
+      height: 30px;
+      margin-right: 7%;
 }
 
 .iinn img:hover{
@@ -136,6 +151,7 @@ body{
 #stores{
     max-width: 100%;
     height: 60vh;
+    overflow-y: hidden;
 }
 
 #sp{
@@ -156,6 +172,7 @@ body{
    border-right: 4px solid rgb(0, 255, 255);
    border-radius: 20px;
    box-shadow: 2px 20px 30px 10px rgba(0, 225, 255, 0.151);
+   overflow-y: hidden;
  
 }
 
@@ -561,7 +578,7 @@ footer{
     }
 
     .upper p{
-        font-size: 2.4rem;
+        font-size: 2rem;
     }
 
     .top img{  
