@@ -118,9 +118,9 @@ body{
 }
 
  .top img{  
-        margin-right:25px;
-        width: 63px;
-        height: 63px;
+        margin-right:23px;
+        width: 60px;
+        height: 60px;
     }
 
 .top img:hover{
@@ -180,9 +180,11 @@ body{
     border-radius: 8px;
 }
 
-.store p{
+.store a{
+    text-decoration: none;
      font-size: 110%;
-     padding: 3%;
+     padding: 2%;
+     color: black;
 }
 
 #ww{
@@ -534,9 +536,14 @@ footer{
 }
 
     .store{
-        width: 15rem;
-        height: 23vh;
+        width: 16rem;
+        height: 24vh;
     }
+
+    .store p{
+        margin-bottom: 3%;
+    }
+
 
     .win, .subright{
        height: 45vh;
@@ -597,18 +604,18 @@ footer{
 @media  screen and (max-width:490px) {
 
     .upper img{
-        width: 20px;
-        height: 20px;
+        width: 23px;
+        height: 23px;
     }
 
     .upper p{
-        font-size: 2.5rem;
+        font-size: 2.4rem;
     }
 
     .top img{  
-        margin-right:14px;
-        width: 37px;
-        height: 37px;
+        margin-right:13px;
+        width: 36px;
+        height: 36px;
     }
 
     .stores{
@@ -637,7 +644,7 @@ footer{
     }
 
     .win img{
-        height: 20vh;
+        height: 22vh;
     }
 
     #piz h2,#tooth h2{
@@ -659,6 +666,14 @@ footer{
 
     .star{
         height: fit-content;
+    }
+
+    .star h1{
+        font-size: 150%;
+    }
+
+    .star p{
+        font-size: 100%;
     }
 
     .st{
