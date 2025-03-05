@@ -538,8 +538,6 @@ footer{
         height: 17vh;
     }
 
-   
-
     .s{
         height: 8vh;
     }
@@ -552,8 +550,9 @@ footer{
         width: 80rem;
         height: 25vh;
         margin-left: 3%;
-}
- 
+   }
+
+  
 }
 
 
@@ -568,7 +567,7 @@ footer{
 
     #nav2 img{
         width: 12px;
-        height: 14px;
+        height: 12px;
     }
 
     .upper p{
@@ -695,4 +694,30 @@ footer{
         display: none;
     }
 
+}
+
+
+@media  screen and (max-width:330px) {
+
+    .upper img{
+        width: 20px;
+        height: 20px;
+    }
+
+     .upper p{
+          font-size: 1.8rem;
+     }
+
+     .top img{
+        width: 30px;
+        height: 30px;
+     }
+
+     .store a{
+        font-size: 90%;
+     }
+
+     .subright img{
+        height: 35vh;
+     }
 }
